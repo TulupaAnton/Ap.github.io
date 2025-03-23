@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ! HEADER!  */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 17%;
+  padding: 0 20px;
+  position: relative;
+}
+
+.Title {
+  text-decoration: none;
+  color: black;
+  font-family: Playfair Display;
+  font-size: 24px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+header h2 {
+  font-family: Playfair Display;
+  font-weight: 800;
+  color: #cc5520;
+}
+
+.links {
+  display: flex;
+  gap: 40px;
+}
+.links a {
+  color: black;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+.links a:hover {
+  color: #cc5520;
+}
+
+.header-info {
+  width: 100%;
+  height: 200px;
+  background-color: #e6e6e6;
+  display: flex;
+
+  justify-content: center;
+}
+.textOfheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-info p {
+  color: #969595;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.header-info h1 {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 50px;
+  font-family: Playfair Display;
+  line-height: 60px;
+}
+
+/* ! MAIN CONTENT!  */
+
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 20px;
+}
+
+.main-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 550px;
+  flex-direction: column;
+}
+
+.info img {
+  max-width: 30%;
+  height: auto;
+}
+
+.main-info p {
+  font-family: Montserrat;
+  font-size: 20px;
+}
+.secondInfo {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 20px;
+  flex-direction: row-reverse;
+}
+.secondMainInfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 550px;
+  flex-direction: column;
+}
+.secondInfo img {
+  max-width: 30%;
+  height: auto;
+}
+.secondMainInfo p {
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+/* !  FOOTER ! */
+
+.footer-wrapper {
+  width: 100%;
+  padding: 0 20px;
+  background-color: #191919;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+.fox-title {
+  width: 100%;
+  color: white;
+  max-width: 200px;
+}
+
+.fox-title h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: Montserrat;
+}
+
+.text-title {
+  margin-bottom: 10px;
+  width: 100%;
+  font-family: Montserrat;
+  color: white;
+}
+.text-paragraph {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: Montserrat;
+  color: white;
+}
+.footer-icons {
+  display: flex;
+  font-size: 25px;
+  gap: 15px;
+}
+.number {
+  margin-bottom: 10px;
+  font-family: Montserrat;
+}
+.title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  color: white;
+  font-weight: 600;
+}
+.copyright {
+  font-weight: 700;
+  font-family: Montserrat;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  header {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header-info {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header-info h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .info,
+  .secondInfo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info img,
+  .secondInfo img {
+    max-width: 80%;
+  }
+
+  .main-info,
+  .secondMainInfo {
+    max-width: 90%;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer ul {
+    margin-bottom: 20px;
+  }
+
+  .footer-icons {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Title {
+    font-size: 20px;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .header-info h1 {
+    font-size: 30px;
+  }
+
+  .main-info p,
+  .secondMainInfo p {
+    font-size: 16px;
+  }
+
+  .info img,
+  .secondInfo img {
+    max-width: 100%;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  .footer-icons {
+    font-size: 20px;
+  }
+}

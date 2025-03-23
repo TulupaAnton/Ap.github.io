@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "BMW",
+    "category": "C",
+    "series": "Jeep",
+    "year": 2021,
+    "model": "M5",
+    "colors": [
+      "Red",
+      "Black"
+    ],
+    "image": [
+      "img/bmw_x5.jpg"
+    ],
+    "prices": [
+      "$62 000",
+      "$90 000"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 2,
+    "name": "Lamborgini",
+    "category": "C",
+    "series": "Hypercar",
+    "year": 2025,
+    "model": "Lampadati",
+    "colors": [
+      "Red",
+      "Black"
+    ],
+    "image": [
+      "img/lamb.png"
+    ],
+    "prices": [
+      "$586 000",
+      "$321 000"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 3,
+    "name": "Porche",
+    "category": "C",
+    "series": "Sportcar",
+    "year": 2024,
+    "model": "911 carera",
+    "colors": [
+      "Red",
+      "yellow"
+    ],
+    "prices": [
+      "$100 000",
+      "$112 000"
+    ],
+    "image": [
+      "img/porsche.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 4,
+    "name": "Audi",
+    "category": "C",
+    "series": "Sedan",
+    "year": 2015,
+    "model": "A5",
+    "colors": [
+      "Blue",
+      "Black"
+    ],
+    "prices": [
+      "$15 000",
+      "$30 000"
+    ],
+    "image": [
+      "img/audi.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 5,
+    "name": "Mersedec",
+    "category": "C",
+    "series": "Jeep",
+    "year": 2018,
+    "model": "211",
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "prices": [
+      "$83 000",
+      "$89 000"
+    ],
+    "image": [
+      "img/bclass.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 6,
+    "name": "Tesla",
+    "category": "C",
+    "series": "Sportcar",
+    "year": 2025,
+    "model": "CyberTrack",
+    "colors": [
+      "gray",
+      "Black"
+    ],
+    "prices": [
+      "$115 000",
+      "$200 000"
+    ],
+    "image": [
+      "img/Tesla.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 7,
+    "name": "Alfa romeo",
+    "category": "C",
+    "series": "Sedan",
+    "year": 2016,
+    "model": "Julia",
+    "colors": [
+      "Red",
+      "Yellow"
+    ],
+    "prices": [
+      "$8 000",
+      "$10 000"
+    ],
+    "image": [
+      "img/alfa-romeo.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 8,
+    "name": "Ferrari",
+    "category": "C",
+    "series": "Hypercar",
+    "year": 2019,
+    "model": "laferarri",
+    "colors": [
+      "Blue",
+      "Black"
+    ],
+    "prices": [
+      "$220 000",
+      "$330 000"
+    ],
+    "image": [
+      "img/ferrari.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  }
+]

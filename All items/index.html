@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Items</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="../main.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="../index.html" class="Title">foxmind</a>
+        <ul class="links">
+          <a href="#">SHOP</a>
+          <a href="../index.html">MAINPAGE</a>
+          <a href="../Our History/index.html">OUR HISTORY</a>
+          <a href="#">ALL ITEMS</a>
+        </ul>
+
+        <div class="cart-container">
+          <i class="fa-solid fa-cart-shopping" style="color: #000"></i>
+          <span class="cart-count">0</span>
+        </div>
+      </header>
+    </div>
+    <div class="header-info">
+      <div class="textOfheader">
+        <p>Home/All Items</p>
+        <h1>All Items</h1>
+      </div>
+    </div>
+    <aside>
+      <div class="filterClass">
+        <input
+          class="inputSearch"
+          id="inputSearch"
+          type="text"
+          placeholder="Search"
+        />
+        <label class="topic">Topic</label>
+        <ul>
+          <button data-f="All" class="filter-btn">All</button>
+          <button data-f="Jeep" class="filter-btn">Jeep</button>
+          <button data-f="Sportcar" class="filter-btn">Sportcar</button>
+          <button data-f="Sedan" class="filter-btn">Sedan</button>
+          <button data-f="Hypercar" class="filter-btn Other">Hypercar</button>
+        </ul>
+        <label class="prise">Prise</label>
+        <input class="radius" type="range" />
+        <p>Value:</p>
+      </div>
+      <!-- ! ITEM LIST ! -->
+      <div class="container">
+        <div class="cards">
+          <ul class="card1 product list js-products-list row jcfs"></ul>
+        </div>
+      </div>
+    </aside>
+    <div class="all-bnutton">
+      <button class="all-btn">All Cars</button>
+    </div>
+    <!-- ! SIDEBAR -->
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-close">
+        <i class="fa-solid fa-close"></i>
+      </div>
+
+      <div class="cart-menu">
+        <h3>My Cart</h3>
+        <div class="cart-items">test1</div>
+      </div>
+
+      <div class="sidebar-footer">
+        <div class="total-amount">
+          <h5>Total</h5>
+          <div class="cart-total">$0.00</div>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+      </div>
+    </div>
+
+    <!-- ! FOOTER ! -->
+    <div class="footer-wrapper">
+      <footer>
+        <ul class="fox-title">
+          <h3>foxminded</h3>
+          <li class="text-title">
+            Lorem ipsum dolor sit amet consectetur consectetur
+          </li>
+          <li class="number">Call us : 8956 3254 7887</li>
+          <li class="footer-icons">
+            <i class="fa-brands fa-instagram"></i
+            ><i class="fa-brands fa-telegram"></i
+            ><i class="fa-brands fa-x-twitter"></i>
+          </li>
+        </ul>
+        <ul>
+          <li class="title">Shop</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+        </ul>
+        <ul>
+          <li class="title">Products</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+        </ul>
+        <ul>
+          <li class="title">Collection</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+        </ul>
+        <ul>
+          <li class="title">Weekly updates</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+        </ul>
+        <ul>
+          <li class="title">About us</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+          <li class="text-paragraph">Lorem, ipsum.</li>
+        </ul>
+      </footer>
+      <p class="copyright">Storelogo, 2023 All rights reserved</p>
+    </div>
+  </body>
+</html>
